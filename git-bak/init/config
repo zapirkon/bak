@@ -1,0 +1,10 @@
+[core]
+	bare = false
+[user]
+	name = name
+	email = email
+[push]
+	autoSetupRemote = 1
+[remote "origin"]
+	url = .git/bak
+	fetch = +refs/heads/*:refs/remotes/origin/*
